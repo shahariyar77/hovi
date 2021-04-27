@@ -1,0 +1,376 @@
+
+/* (1920x1080) Full HD Display */
+
+@media  screen and (max-width: 1920px) {}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {}
+/*---------------- iPads (portrait and landscape) ---------------------- */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+  .header-area {
+	padding: 0 10px;
+}
+    .main-manu ul li a {
+	padding: 40px 9px;
+}
+    a.btn {
+	padding: 10px 25px;
+}
+    .slider-content h2 {
+	font-size: 70px;
+}
+    .section-tittle h2 {
+	font-size: 50px;
+	line-height: 1.4;
+}
+    .section-tittle.portfulio-tittle h2 {
+	font-size: 42px;
+}
+    .skil-text h2 {
+	font-size: 46px;
+}
+    .skil-img {
+	min-height: 488px;
+}
+    .cta-left h2 {
+	font-size: 50px;
+}
+    a.btn.bg-cta {
+	padding: 15px 12px;
+}
+    a.btn.border-cta {
+	padding: 15px 31px;
+}
+    .exprines-box p {
+	font-size: 10px;
+}
+    .exprines-box-tittle h2 {
+	font-size: 18px;
+}
+   .team-bg {
+	height: 320px;
+} 
+    .team-detalse h4 {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+    .tesmonial-clicent-name h4 {
+	font-size: 12px;
+}
+    .review a {
+	font-size: 10px;
+}
+    .tst-foter-tittle h4 {
+	font-size: 12px;
+}
+    .tst-foter-tittle span {
+	font-size: 11px;
+	
+}
+    .tesmonial-clicent-name {
+	margin-top: 9px;
+}
+    .news-text span {
+	font-size: 10px;
+	
+}
+    .single-news-item h4 {
+	font-size: 23px;
+}
+ .single-news-item:nth-child(4) {
+	margin-bottom: 0;
+}
+    .single-news-item {
+	margin-bottom: 50px;
+	
+}
+    section.footer-area p {
+	font-size: 11px;
+}
+    section.footer-area h2 {
+	font-size: 24px;
+}
+    .ed-bg-2 {
+	width: 380px;
+}
+    .team-detalse {
+	margin-left: 12px;
+}
+    .single-testmonial-item {
+	max-height: 364px;
+	height: 435px;
+}
+} 
+    
+
+/*------------------- tablate & mobile layout -------------------- */
+
+@media only screen and (max-device-width: 991px) {
+    
+}
+
+
+/*------------------- iPads (portrait and landscape) -------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+   
+    a.btn {
+	margin-bottom: 25px;
+}
+    .slider-content h2 {
+	font-size: 53px;
+}
+    .section-tittle h2 {
+	font-size: 44px;
+	line-height: 1.5;
+}
+    a.btn {
+	padding: 10px 28px;
+}
+     .pricing-tittle h4 {
+	font-size: 16px;
+}
+    .single-pricing-box span {
+	font-size: 14px;
+}
+    .skil-text h2 {
+	font-size: 41px;
+}
+    .section-tittle.portfulio-tittle h2 {
+	font-size: 38px;
+}
+    .filter-project li {
+	padding: 8px 12px;
+}
+    .cta-left {
+	text-align: center;
+}
+    .cta-left h2 {
+	font-size: 50px;
+	margin-bottom: 31px;
+}
+    .cta-right {
+	margin-left: 19%;
+}
+    .cta-box {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+    .exprines-box p {
+	font-size: 8px;
+}
+    .exprines-box-tittle h2 {
+	font-size: 14px;
+}
+    .ed-bg {
+	margin-bottom: 25px;
+}
+    .ed-bg-2 {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+    .ed-bg-2::after {
+	display: none;
+}
+    section.footer-area h2 {
+	font-size: 21px;
+}
+    section.footer-area p {
+	font-size: 9px;
+}
+    .main-manu {
+	display: none;
+}
+    .single-testmonial-item {
+	max-height: 369px;
+	height: 415px;
+	
+}
+    
+    
+}
+
+
+
+
+
+/*================= 320  mobile lay out   =======================*/
+@media only screen and (max-device-width: 767px){
+    
+    .header-right {
+	float: right;
+	margin-top: -42px;
+	margin-bottom: 30px;
+}
+    .header-area {
+	padding: 0 10px;
+}
+    .header-btn {
+	display: none;
+}
+    .main-manu {
+	display: none;
+}
+   .slider-content h2 {
+	font-size: 35px;
+}
+    .slider-content span {
+	font-size: 15px;
+}
+    .slider-content p {
+	font-size: 14px;
+}
+    a.btn {
+	padding: 10px 19px;
+}
+    .slider-btn a span {
+	color: #000a2d;
+}
+    .single-slider {
+	min-height: 420px;
+}
+    .section-tittle h2 {
+	font-size: 31px;
+	line-height: 1.5;
+}
+    .section-tittle {
+	margin-bottom: 25px;
+}
+    .pb-110 {
+	padding-bottom: 60px;
+}
+    section.pricing-teable {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+    .pt-110 {
+	padding-top: 60px;
+}
+    .single-pricing-box {
+	margin-bottom: 30px;
+}
+    .skil-text h2 {
+	font-size: 32px;
+}
+   .skil-img {
+	margin-bottom: 30px;
+}
+    .skil-text span {
+	margin-bottom: 25px;
+}
+    .section-tittle.portfulio-tittle h2 {
+	font-size: 40px;
+}
+    .filter-project li {
+	padding: 8px 11px;
+	
+}
+    .filter-project li.active {
+	border-bottom: transparent;
+}
+    ul.filter-project {
+	margin-bottom: 30px;
+}
+    .cta-left h2 {
+	font-size: 35px;
+}
+    .text-right {
+	text-align: center !important;
+}
+    a.btn.bg-cta {
+	margin-bottom: 20px;
+}
+    section.cta-area {
+	text-align: center;
+}
+    .cta-left h2 {
+	margin-bottom: 20px;
+}
+    .pb-80 {
+	padding-bottom: 50px;
+}
+    .pt-80 {
+	padding-top: 50px;
+}
+    .section-tittle h2 {
+	font-size: 28px;
+}
+    .pb-120 {
+	padding-bottom: 50px;
+}
+    .pt-100 {
+	padding-top: 65px;
+}
+    .single-education-item span {
+	font-size: 13px;
+}
+    .single-education-item h4 {
+	font-size: 21px;
+}
+    .single-education-item p {
+	font-size: 14px;
+}
+    .ed-bg {
+	width: auto;
+}
+    .ed-bg-2 {
+	position: relative;
+	left: 0;
+	top: 20px;
+	width: auto;
+}
+    .ed-bg-2::after {
+	display: none;
+}
+    .team-detalse h4 {
+	font-size: 22px;
+}
+    .google-map {
+	margin-top: 35px;
+}
+    section.news-area {
+	padding-top: 65px;
+	
+}
+    .news-text span {
+	font-size: 7px;
+}
+    .news-left h4 {
+	font-size: 11px;
+}
+    .news-right {
+	margin-top: 35px;
+}
+    .single-news-item span {
+	font-size: 12px;
+}
+    .single-news-item h4 {
+	font-size: 17px;
+}
+    section.footer-area h2 {
+	font-size: 16px;
+}
+    .social-link {
+	margin-bottom: 40px;
+}
+    section.footer-area h2 {
+	margin-bottom: 0;
+}
+    section.footer-area span {
+	margin-top: 30px;
+}
+    section.footer-area {
+	padding: 60px 0;
+}
+    .single-testmonial-item {
+	max-height: 461px;
+	height: 418px;
+}
+    .tesmonial-clicent-name h4 {
+	font-size: 16px;
+}
+    
+}
+
+
